@@ -8,6 +8,9 @@
     --light-green: #1FFF71;
 
     --dark-grey: #1E1F28;
+    --light-grey: #6C6C73;
+    --grey: #30343E;
+
     --white: #FFF;
     --background-white: #F2F2F2;
 }
@@ -64,9 +67,9 @@
 }
 
 .title {
-    color: var(--dark-grey);
+    color: var(--grey);
 
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -114,7 +117,7 @@
 }
 
 .text {
-    color: #1D242B;
+    color: var(--dark-grey);
     margin-bottom: 20px; 
 }
 
@@ -149,8 +152,9 @@
 }
 
 .testimonials-section {
-    background-color: var(--dark-grey);
-
+    background: rgb(66,66,69);
+    background: radial-gradient(circle, rgba(66,66,69,1) 0%, rgba(29,36,43,1) 79%);
+    
     font-family: 'Poppins', sans-serif;
 
     display: flex;
@@ -161,8 +165,8 @@
     padding: 60px;
 }
 
-.title-depoiments {
-    color: #FFF;
+.testimony-title {
+    color: var(--white);
 }
 
 .testimonials-container {
@@ -208,11 +212,10 @@
 }
 
 .footer {
-    background: #1FFF71;
-    background: radial-gradient(#1FFF71, #14AA4B);
+    background-color: var(--dark-green);
 
     font-family: 'Poppins', sans-serif;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
