@@ -206,3 +206,16 @@
     align-items: center;
     padding: 20px 20px;
 }
+
+.footer {
+    background: #1FFF71;
+    background: radial-gradient(#1FFF71, #14AA4B);
+
+    font-family: 'Poppins', sans-serif;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
