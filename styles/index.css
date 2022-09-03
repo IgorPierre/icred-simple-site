@@ -1,12 +1,18 @@
 :root {
-    --orange: #FF7900 ;
     --dark-orange: #FF3A00;
+    --orange: #FF7900 ;
     --light-orange: #FF9F00;
 
+    --dark-green: #14AA4B;
+    --green: #10E85F;
+    --light-green: #1FFF71;
+
     --dark-grey: #1E1F28;
+    --white: #FFF;
 }
 
 .header {
+    background-color: var(--white);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -40,3 +46,71 @@
     background-color: var(--light-orange);
     border: 2px solid var(--light-orange);
 }
+
+.banner {
+    background-color: var(--dark-green);
+    background-image: url("/assets/images/bakcground.png");
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    font-family: 'Poppins', sans-serif;
+    
+    width: 100%;
+    padding: 200px 60px 0px 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    color: var(--dark-grey);
+
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.title-banner {
+    color: var(--white);
+
+    font-size: 70px;
+    text-shadow: 4px 7px 7px #000;
+}
+
+.cards-banner {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 60px;
+}
+
+.card {
+    background-color: var(--white);
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    width: 400px;
+    height: 300px;
+
+    margin: 50px;
+    margin-bottom: -150px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-25px);
+}
+
+.subtitle {
+    color: #FF9F00;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #1D242B;
+    margin-bottom: 20px; 
+}
+
