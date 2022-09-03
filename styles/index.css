@@ -172,7 +172,10 @@
     justify-content: space-around;
 
     margin-top: 80px;
+<<<<<<< HEAD
     padding: 30px 0px;
+=======
+>>>>>>> 3da9c9259dbccf49328b1a551b2e1a651738f101
 }
 
 .testimonial-card {
@@ -184,6 +187,10 @@
     border-radius: 60px 20px;
 
     text-align: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3da9c9259dbccf49328b1a551b2e1a651738f101
 }
 
 .icon-testimony {
@@ -192,6 +199,7 @@
     margin-top: -70px;
     margin-left: -270px;
     border-radius: 100px;
+<<<<<<< HEAD
 }
 
 .banks-section {
@@ -203,4 +211,6 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px 20px;
+=======
+>>>>>>> 3da9c9259dbccf49328b1a551b2e1a651738f101
 }
