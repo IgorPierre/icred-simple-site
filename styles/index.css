@@ -147,3 +147,49 @@
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+.testimonials-section {
+    background-color: var(--dark-grey);
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px;
+}
+
+.title-depoiments {
+    color: #FFF;
+}
+
+.testimonials-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 80px;
+}
+
+.testimonial-card {
+    background-color: var(--background-white);
+
+    width: 400px;
+    height: 300px;
+    padding: 60px 30px;
+    border-radius: 60px 20px;
+
+    text-align: center;
+
+}
+
+.icon-testimony {
+    color: var(--orange);
+    font-size: 150px;
+    margin-top: -70px;
+    margin-left: -270px;
+    border-radius: 100px;
+}
