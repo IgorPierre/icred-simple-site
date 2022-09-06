@@ -6,4 +6,5 @@
     </div>
     <h1>Simple Icred website</h1>
     <h3>Simple website using html, css and javascript, created to put into practice the knowledge acquired about these technologies.</h3>
+    
 </body>
