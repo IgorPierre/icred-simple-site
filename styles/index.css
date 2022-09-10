@@ -190,7 +190,7 @@
 .testimonials-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
     width: 100%;
     max-width: 980px;
@@ -307,7 +307,5 @@
     .btn-header {
         padding: 5px 10px;
     }
-
-
 }
 
