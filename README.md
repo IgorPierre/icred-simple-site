@@ -5,7 +5,6 @@
     </div>
     <h1>Simple Icred website</h1>
     <h3>Um site simples para uma agência virtual de crédito feito com html e css.</h3>
-    
     <div display="flex" justify-content="center" align-items="center">
         <img src="assets/images/full-page-icred-site.png" width="70%">
     </div>
