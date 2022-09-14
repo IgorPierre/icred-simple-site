@@ -33,6 +33,10 @@
     cursor: pointer;
 }
 
+.icon-whatsapp {
+    margin-left: 10px;
+}
+
 .btn {
     background-color: var(--orange);
     color: #FFF;
@@ -50,6 +54,10 @@
 .btn-header:hover {
     background-color: var(--light-orange);
     border: 2px solid var(--light-orange);
+}
+
+.btn-header-mobile {
+    display: none;
 }
 
 .banner-section {
@@ -249,63 +257,21 @@
 }
 
 @media (max-width: 980px) {
-
     .header {
-        padding: 5px 20px; 
-    }
-
-    .title {
-        font-size: 3rem;
-    }
-
-    .cards-banner {
-        flex-direction: column;
-    }
-
-    .card {
-        width: 70%;
-        margin: 0px;
-        margin-bottom: 50px;
-    }
-
-    .vantages-section {
-        padding: 100px 20px;
-        text-align: center; 
-    }
-
-    .topics-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .topic {
-        width: 80%;
-    }
-
-    .testimonials-section {
-        padding: 50px 0;
-    }
-
-    .testimonials-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial-card {
-        margin-bottom: 60px;
-        width: 80%;
-    }
-
-    .bank-img {
-        width: 20%;
-    }
-
-    .footer {
-        flex-direction: column;
+        padding: 10px 30px;
     }
 
     .btn-header {
-        padding: 5px 10px;
+        display: none;
+    }
+
+    .btn-header-mobile {
+        display: flex;
+    }
+
+    .icon-whatsapp {
+        font-size: 30px;
+        margin: 0;
     }
 }
 
