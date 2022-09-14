@@ -51,13 +51,13 @@
     cursor: pointer;
 }
 
+.btn-header-mobile {
+    display: none;
+}
+
 .btn-header:hover {
     background-color: var(--light-orange);
     border: 2px solid var(--light-orange);
-}
-
-.btn-header-mobile {
-    display: none;
 }
 
 .banner-section {
@@ -74,7 +74,7 @@
 
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    padding-top: 270px 60px 0px 60px;
+    padding: 20px 60px 0px 60px;
 }
 
 .title {
@@ -94,10 +94,10 @@
 
 }
 
-.cards-banner {
+.cards-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
     width: 100%;
@@ -117,7 +117,7 @@
     width: 30%;
 
     margin-bottom: -150px;
-    padding: 60px 40px;
+    padding: 40px 30px;
     border-radius: 40px;
 
     transition: 0.4s;
@@ -156,12 +156,15 @@
 .topics-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     width: 100%;
     margin: 60px;
 }
 
 .topic {
+    max-width: 430px;
     text-align: center;
     padding: 30px;
 }
@@ -199,6 +202,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     width: 100%;
     max-width: 980px;
@@ -212,6 +216,7 @@
     box-shadow: 15px 15px 0px var(--background-white);
 
     width: 45%;
+    max-width: 430px;
     padding: 60px 30px;
     border: 10px solid var(--white);
     border-radius: 70px 20px;
@@ -251,6 +256,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 50px 200px;
 
     width: 100%;
@@ -273,5 +279,97 @@
         font-size: 30px;
         margin: 0;
     }
+
+    .banner-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .card {
+        width: 95%;
+        max-width: 430px;
+
+        margin: 40px 0px 0px 0px;
+        padding: 40px 30px;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .vantages-section {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .topics-container {
+        flex-direction: column;
+    }
+
+    .testimonials-section {
+        padding: 40px 15px;
+    }
+
+    .testimonials-container {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        padding: 20px 0px;
+        margin-bottom: 60px;
+
+        box-shadow: 7px 7px 0px var(--background-white);
+    }
+
+    .icon-testimony {
+        font-size: 5rem;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .bank-img {
+        width: 15%;
+    }
+
+    .footer {
+        padding: 50px 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
+@media (max-width: 400px) {
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .cards-container {
+        margin-top: 20px;
+    }
+
+    .banks-section {
+        flex-wrap: wrap;
+    }
+
+    .bank-img {
+        width: 30%;
+    }
+
+}
