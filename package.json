@@ -1,0 +1,20 @@
+{
+  "name": "icred-simple-site",
+  "version": "1.0.0",
+  "description": "Simple personal project made for a virtual credit agency, this project is not a real application, as it was developed with the intention of putting into practice the knowledge about html and css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorPierre/icred-simple-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorPierre/icred-simple-site/issues"
+  },
+  "homepage": "https://github.com/IgorPierre/icred-simple-site#readme"
+}
