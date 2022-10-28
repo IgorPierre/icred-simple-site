@@ -33,6 +33,23 @@
     cursor: pointer;
 }
 
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: var(--grey);
+
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+    margin-right: 20px;
+
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
 .icon-whatsapp {
     margin-left: 10px;
 }
