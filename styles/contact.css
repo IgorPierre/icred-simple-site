@@ -59,3 +59,47 @@
     background-color: var(--light-orange);
     border: 2px solid var(--light-orange);
 }
+
+.contact-banner {
+    background-color: var(--green);
+    background-image: url('/assets/images/background-image-about-page-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 20px;
+
+    
+}
+
+.contact-content {
+    background-color: #FFF;
+    color: var(--grey);
+    width: 90%;
+    padding: 50px 20px;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+
+.title {
+    color: var(--orange);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 30px;
+    color: var(--orange);
+    margin-bottom: 20px;
+}

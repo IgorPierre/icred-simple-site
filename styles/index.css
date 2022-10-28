@@ -17,7 +17,6 @@
 }
 
 .nav-link {
-    font-family: 'Poppins', sans-serif;
     color: var(--grey);
 
     font-size: 18px;
@@ -25,7 +24,6 @@
     text-decoration: none;
 
     margin-right: 20px;
-
     transition: 0.2s;
 }
 
@@ -41,7 +39,6 @@
     background-color: var(--orange);
     color: #FFF;
 
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 
     padding: 10px 30px;
@@ -72,7 +69,6 @@
     justify-content: center;
     text-align: center;
 
-    font-family: 'Poppins', sans-serif;
     width: 100%;
     padding: 20px 60px 0px 60px;
 }
@@ -107,7 +103,6 @@
 .card {
     background-color: var(--white);
 
-    font-family: 'Poppins', sans-serif;
     text-align: center;
 
     display: flex;
@@ -142,7 +137,6 @@
 .vantages-section {
     background-color: var(--background-white);
 
-    font-family: 'Poppins', sans-serif;
 
     display: flex; 
     align-items: center;
@@ -178,7 +172,6 @@
 .testimonials-section {
     background-color: var(--dark-grey);
     
-    font-family: 'Poppins', sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -250,7 +243,6 @@
 .footer {
     background-color: var(--dark-green);
 
-    font-family: 'Poppins', sans-serif;
 
     display: flex;
     flex-direction: row;
